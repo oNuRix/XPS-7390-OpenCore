@@ -1,4 +1,5 @@
 # XPS-7390-OpenCore-Sonoma
+not stable
 
 <img width="905" alt="Capture d’écran 2024-02-10 à 20 48 50" src="https://github.com/oNuRix/XPS-7390-OpenCore/assets/40405226/ec35c66c-64fb-4221-a764-3e0eabb46224">
 
@@ -30,7 +31,7 @@
 - Secure Boot --> Enable Secure Boot --> Toggle OFF
 - Secure Boot --> Secure Boot Mode --> Deployed Mode
 - POST Behavior --> Sign of Life --> Display Logo Sign of Life --> Toggle OFF
-- Power Management --> Block Sleep --> Toggle ON
+- Power Management --> Block Sleep --> Toggle ON (i use it with external screen)
 
   THANKS
 - [sambow23](https://github.com/sambow23/Dell-XPS-13-7390-macOS)
