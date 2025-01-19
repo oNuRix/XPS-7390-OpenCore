@@ -1,9 +1,7 @@
 # XPS-7390-OpenCore-Sonoma
-not stable
-
-<img width="905" alt="Capture d’écran 2024-02-10 à 20 48 50" src="https://github.com/oNuRix/XPS-7390-OpenCore/assets/40405226/ec35c66c-64fb-4221-a764-3e0eabb46224">
 
 
+<img width="318" alt="mba" src="https://github.com/user-attachments/assets/b2fa7e4a-35f0-4592-b378-cb447c8e66a7" />
 
 
 ## Specs
@@ -30,9 +28,14 @@ not stable
 - Security --> Intel SGX --> Disabled/Software Control
 - Secure Boot --> Enable Secure Boot --> Toggle OFF
 - Secure Boot --> Secure Boot Mode --> Deployed Mode
-- POST Behavior --> Sign of Life --> Display Logo Sign of Life --> Toggle OFF
 - Power Management --> Block Sleep --> Toggle ON (i use it with external screen)
 
+  AFTER INSTALL
+- use commande : sudo pmset -a disablesleep 1
+- if not screen flicking after wake.
+- wifi not work after wake too
+  
   THANKS
 - [sambow23](https://github.com/sambow23/Dell-XPS-13-7390-macOS)
 - [meghan06](https://github.com/meghan06/XPS13-73902in1)
+- [theJayTea](https://github.com/theJayTea/XPS-13-7390-Hackintosh)
